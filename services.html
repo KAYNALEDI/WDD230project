@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactify Labs Services</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Replace "your-css-file.css" with the path to your CSS file -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="clients.html">CLIENTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Our Services</h1>
+            <p>Discover what Interactify Labs has to offer.</p>
+            <a href="contact.html" class="hero-btn">Contact Us</a>
+        </div>
+    </section>
+
+    <section class="course">
+        <div class="container">
+            <h1>Services We Offer</h1>
+            <p>Explore our range of services designed to meet your needs.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Web Development</h3>
+                    <p>We provide custom web development solutions tailored to your business requirements.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Mobile App Development</h3>
+                    <p>Get innovative mobile app solutions to engage your users on the go.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Digital Marketing</h3>
+                    <p>Boost your online presence with our digital marketing strategies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <div class="container">
+            <h1>Our Global Reach</h1>
+            <p>Explore our presence across the globe.</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/london.png" alt="London">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/newyork.png" alt="New York">
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/washington.png" alt="Washington">
+                    <div class="layer">
+                        <h3>WASHINGTON</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facility">
+        <div class="container">
+            <h1>Our Facilities</h1>
+            <p>Experience our state-of-the-art facilities.</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/library.png" alt="Library">
+                    <h3>World Class Library</h3>
+                    <p>Access a vast collection of resources to support your learning.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/basketball.png" alt="Play Ground">
+                    <h3>Largest Play Ground</h3>
+                    <p>Stay active and energized with our extensive sports facilities.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/cafeteria.png" alt="Cafeteria">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Enjoy delicious and nutritious meals prepared by our chefs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h1>What Our Clients Say</h1>
+            <p>Discover the experiences of our satisfied clients.</p>
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="images/user1.jpg" alt="User 1">
+                    <div>
+                        <p>Interactify Labs helped us create a stunning website for our business. Their attention to detail and professionalism are commendable.</p>
+                        <h3>John Doe</h3>
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/user2.jpg" alt="User 2">
+                    <div>
+                        <p>The team at Interactify Labs is highly skilled and dedicated. They exceeded our expectations with their mobile app development services.</p>
+                        <h3>Jane Smith</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h1>Ready to Get Started?</h1>
+            <a href="contact.html" class="hero-btn red-btn">Contact Us</a>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <h4>About Us</h4>
+            <p>Interactify Labs is a leading provider of digital solutions, offering web development, mobile app development, and digital marketing services.</p>
+            <div class="icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <a href="#" class="footer-link">Made with <i class="fa fa-heart-o"></i> by Interactify Labs</a>
+        </div>
+    </section>
+
+    <!-- JavaScript for mobile navigation toggle -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
