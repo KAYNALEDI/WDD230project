@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consulting Firm - Your Trusted Advisor</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="Consulting Firm Logo"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="clients.html">CLIENTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Your Trusted Consulting Partner</h1>
+            <p>We provide strategic solutions to help your business thrive in today's competitive landscape.</p>
+            <a href="contact.html" class="hero-btn">Contact Us</a>
+        </div>
+    </section>
+    
+    <section class="services">
+        <h1>Our Services</h1>
+        <p>We offer a wide range of consulting services tailored to meet your business needs.</p>
+        <div class="row">
+            <div class="service-col">
+                <h3>Strategy Consulting</h3>
+                <p>Developing actionable strategies to drive growth and achieve business objectives.</p>
+            </div>
+            <div class="service-col">
+                <h3>Financial Consulting</h3>
+                <p>Optimizing financial performance and maximizing profitability through effective financial management.</p>
+            </div>
+            <div class="service-col">
+                <h3>Marketing Consulting</h3>
+                <p>Creating impactful marketing strategies to enhance brand visibility and customer engagement.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about">
+        <h1>About Us</h1>
+        <p>Learn more about our consulting firm and our commitment to delivering exceptional results for our clients.</p>
+        <!-- Add content about your consulting firm -->
+    </section>
+    
+    <section class="clients">
+        <h1>Our Clients</h1>
+        <p>Discover some of the esteemed clients we've had the privilege of working with.</p>
+        <!-- Add content about your clients -->
+    </section>
+    
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <p>Reach out to us to discuss how we can help your business succeed.</p>
+        <!-- Add contact form or contact details -->
+    </section>
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Learn more about our consulting firm and how we can help your business thrive.</p>
+        <div class="icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <a href="#" class="footer-link"><p>Made with <i class="fa fa-heart-o"></i> by Your Consulting Firm</p></a>
+    </section>
+  
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script> 
+    
+</body>
+</html>
