@@ -1,19 +1,22 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>University Website Design - Easy Tutorials</title>
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactify Labs Services</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Replace "your-css-file.css" with the path to your CSS file -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="sub-header">
+
+    <section class="header">
         <nav>
-            <a href="index.html"><img src="images/logo.png"></a>
-            <div class="nav-links" id="navLinks">  
-                <i class="fa fa-close" onclick="hideMenu()"></i>
+            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
+                    
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="services.html">SERVICES</a></li>
                     <li><a href="clients.html">CLIENTS</a></li>
@@ -21,7 +24,8 @@
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>   
+        </nav>
+
         <div class="text-box">
             <h1>About Us</h1>
             <p>Discover the intriguing background story of Interactify Labs, our founder, and our values, missions, and goals.</p>
@@ -75,32 +79,20 @@
 </section>
     
 <!-------- footer ---------->
-
 <section class="footer">
-        <h4>About Us</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
-        <div class="icons">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-linkedin"></i>
-        </div>
-        <p>made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
-</section>    
-  
-  
-<!----JavaScript for toggle menu---->
-<script>
-    var navLinks = document.getElementById("navLinks");
+    <h4>About Us</h4>
+    <p>Learn more about our consulting firm and how we can help your business thrive.</p>
+    <div class="icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <a href="#" class="footer-link"><p>&copy; Nokwazi Kunene - Interactify Labs (Pty)Ltd</p>
+        <p id="lastModified"></p> by Your Consulting Firm</p></a>
+</section>
 
-    function showMenu() {
-        navLinks.style.right = "0";
-    }
+<script src="scripts/index.js"></script>
 
-    function hideMenu() {
-        navLinks.style.right = "-200px";
-    }
-</script> 
-    
 </body>
-</html>    
+</html>
